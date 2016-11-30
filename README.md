@@ -32,3 +32,6 @@ Installed uwsgi, flask, line-bot-sdk, uwsgi-plugin-python on ubuntu 14.04 docker
     webrestart is an alias
     service nginx stop;pkill -f uwsgi -9; service nginx start; uwsgi --ini /var/www/app/uwsgi.ini --plugin python &
 </pre>
+
+## Reference
+http://sportingmobile.blogspot.tw/2016/11/flask-nginx-uwsgi.html
