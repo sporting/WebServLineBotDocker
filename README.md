@@ -14,7 +14,7 @@ Installed uwsgi, flask, line-bot-sdk, uwsgi-plugin-python on ubuntu 14.04 docker
     docker login
 </pre>
 
-3. run docker
+3. replace the parameters (YOUR_LINE_CHANNEL_ACCESS_TOKEN and YOUR_LINE_CHANNEL_SECRET) on below command then run docker
 <pre>
     docker run -ti --net=host -p 80:80 -p 443:443 \
     -v ~/dockers/bot/app:/var/www/app \
