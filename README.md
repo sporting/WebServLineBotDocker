@@ -5,10 +5,14 @@ Installed uwsgi, flask, line-bot-sdk, uwsgi-plugin-python on ubuntu 14.04 docker
 
 ## Steps
 1. install docker
->    sudo apt-get install docker
+<pre>
+    sudo apt-get install docker
+</pre>
 
 2. login docker public repository: hub.docker.com
->    docker login
+<pre>
+    docker login
+</pre>
 
 3. run docker
 <pre>
